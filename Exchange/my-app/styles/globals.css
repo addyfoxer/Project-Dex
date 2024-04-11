@@ -1,0 +1,51 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: fantasy;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+.Mainh {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.Mainh-header {
+  background-color: #f0f0f0;
+  padding: 20px 0;
+}
+
+.content {
+  margin: 20px 0;
+}
+
+.cta {
+  margin-top: 40px;
+}
+
+button {
+  background-color: #031103;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}

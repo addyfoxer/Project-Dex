@@ -1,0 +1,43 @@
+.Mainh {
+    text-align: center;
+    font-family: sans-serif;
+    
+  }
+  .conts{
+    position:absolute;
+    text-align: left;
+    left: 33em;
+
+  }
+  .Mainh-header {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+  }
+  
+  .content {
+    margin: 20px 0;
+  }
+  
+  .cta {
+    margin-top: 40px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  .foot{
+    position:fixed;
+    bottom: 2em;
+    left: 33em;
+
+    
+  }
+
+  .canv{
+    z-index: -1;
+    opacity: 1;
+  }
